@@ -1,0 +1,28 @@
+/*stack imgs vertically using display block*/
+img {
+	display: block;
+}
+
+/*find imgs with transparent backgrounds so they look good stacked*/
+/*use css positioning to overlap imgs to create 3d feel*/
+#hare {
+	position: relative;
+	top: 125px;
+	width: 100px;
+	height:100px;
+}
+
+/*start/finish line should originate in front of racers and jump to opposite side of page upon start*/
+#ribbon {
+	position: relative;
+	left: 110px;
+	width: 50px;
+	height: 300px;
+}
+
+#tortoise {
+	position: relative;
+	top: -125px;
+	width: 100px;
+	height: 100px;
+}
