@@ -1,0 +1,24 @@
+img {
+	display: block;
+}
+
+#hare {
+	position: relative;
+	top: 125px;
+	width: 100px;
+	height:100px;
+}
+
+#ribbon {
+	position: relative;
+	left: 110px;
+	width: 50px;
+	height: 300px;
+}
+
+#tortoise {
+	position: relative;
+	top: -125px;
+	width: 100px;
+	height: 100px;
+}
