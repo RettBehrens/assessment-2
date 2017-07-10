@@ -1,0 +1,176 @@
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+
+    .tablet {
+    	display: block;
+    	background-color: #FF6600;
+    	text-align: center;
+    	border-radius: 10px;
+    }
+
+    * {
+		font-family: 'Chewy', cursive;
+	}
+
+	header {
+		width: 90%;
+		margin-bottom: 100px;
+		margin: 0 auto;
+	}
+
+	input {
+		display: block;
+		margin: 0 auto;
+		font-size: 20px;
+		color: #143306;
+		background-color: #8B4513;
+		border-radius: 10px;
+		border-color: black;
+	}
+
+	/*adds forest trail backround image*/
+	body {
+		background-image: url(../forest-race-background.jpg);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	h1 {
+		text-align: center;
+		color: #8B4513;
+		font-size: 80px;
+		margin: 50px 0px 50px 0px;
+		text-shadow: 2px 2px black;
+	}
+
+	p {
+		font-size: 20px;
+		color: #8B4513;
+		text-shadow: 2px 2px black;
+	}
+
+	#hare-instructions {
+		float: left;
+	}
+
+	#tortoise-instructions {
+		float: right;
+	}
+
+	/*stack imgs vertically using display block*/
+	img {
+		display: block;
+		height: 200px;
+	}
+
+	.race {
+		margin-top: 50px;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	/*find imgs with transparent backgrounds so they look good stacked*/
+	/*use css positioning to overlap imgs to create 3d feel*/
+	#hare {
+		position: relative;
+		left: 0;
+		width: 100px;
+		height:100px;
+	}
+
+	#tortoise {
+		position: relative;
+		left: 0;
+		transform: rotateY(180deg);
+		width: 100px;
+		height: 100px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	/*for desktops*/
+
+	.tablet-hide {
+		display: none;
+	}
+
+	* {
+		font-family: 'Chewy', cursive;
+	}
+
+	header {
+		width: 90%;
+		margin-bottom: 100px;
+		margin: 0 auto;
+	}
+
+	input {
+		display: block;
+		margin: 0 auto;
+		font-size: 20px;
+		color: #143306;
+		background-color: #8B4513;
+		border-radius: 10px;
+		border-color: black;
+	}
+
+	/*adds forest trail backround image*/
+	body {
+		background-image: url(../forest-race-background.jpg);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	h1 {
+		text-align: center;
+		color: #8B4513;
+		font-size: 80px;
+		margin: 50px 0px 50px 0px;
+		text-shadow: 2px 2px black;
+	}
+
+	p {
+		font-size: 20px;
+		color: #8B4513;
+		text-shadow: 2px 2px black;
+	}
+
+	#hare-instructions {
+		float: left;
+	}
+
+	#tortoise-instructions {
+		float: right;
+	}
+
+	/*stack imgs vertically using display block*/
+	img {
+		display: block;
+		height: 200px;
+	}
+
+	.race {
+		margin-top: 50px;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	/*find imgs with transparent backgrounds so they look good stacked*/
+	/*use css positioning to overlap imgs to create 3d feel*/
+	#hare {
+		position: relative;
+		left: 0;
+		width: 100px;
+		height:100px;
+	}
+
+	#tortoise {
+		position: relative;
+		left: 0;
+		transform: rotateY(180deg);
+		width: 100px;
+		height: 100px;
+	}
+}

@@ -1,0 +1,72 @@
+* {
+	font-family: 'Chewy', cursive;
+	text-align: center;
+}
+
+header {
+	width: 100%;
+	margin-top: 50px;
+}
+
+#title-frame {
+	width: 60%;
+	margin: 0 auto;
+	background-color: #D2B48C;
+	border-radius: 10px;
+}
+
+h1 {
+	color: #8B4513;
+	font-size: 80px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	text-shadow: 2px 2px black;
+}
+
+p {
+	font-size: 20px;
+	color: #8B4513;
+	text-shadow: 2px 2px black;
+	margin-top: 10px;
+	margin-bottom: 200px;
+	padding-bottom: 10px;
+}
+
+img {
+	display: inline-block;
+	height: 300px;
+}
+
+#hare {
+	float: left;
+}
+
+#tortoise {
+	float: right;
+}
+
+body {
+	background-image: url(../forest-landing.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+#play-game {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.challenge {
+	width: 60%;
+	margin: 0 auto;
+}
+
+input {
+	display: inline-block;
+	margin: 0 auto;
+	font-size: 20px;
+	color: #8B4513;
+	background-color: #D2B48C;
+	border-radius: 10px;
+	border-color: black;
+}
